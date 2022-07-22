@@ -1,12 +1,3 @@
-
-#include<iostream>
-#include<fstream>
-#include<cstdlib>
-#include<vector>
-#include<map>
-using namespace std;
-#define MIN_BALANCE 500
-
 class Bank
 {
 private:
@@ -29,7 +20,6 @@ ifstream infile;
 infile.open("Bank.data");
 if(!infile)
 {
-//cout<<"Error in Opening! File Not Found!!"<<endl;
 return;
 }
 while(!infile.eof())
