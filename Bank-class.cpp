@@ -1,3 +1,4 @@
+long Account::NextAccountNumber=0;
 class Bank
 {
 private:
