@@ -1,3 +1,12 @@
+
+#include<iostream>
+#include<fstream>
+#include<cstdlib>
+#include<vector>
+#include<map>
+using namespace std;
+#define MIN_BALANCE 500
+
 class Bank
 {
 private:
